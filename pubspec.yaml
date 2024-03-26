@@ -1,0 +1,11 @@
+name: fetching_data
+description: Learning Dart to work with Flutter
+version: 1.0.0
+
+environment:
+  sdk: '^3.3.2'
+dependencies:
+  http: ^1.2.1
+
+dart:
+main: 12-fetching_data.dart

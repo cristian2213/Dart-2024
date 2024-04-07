@@ -4,11 +4,12 @@ void main() {
 
   // immutable values
   final age =
-      25; // runtime constant (Use final keyword when you know the value in compile-time)
+      25; // runtime constant (the value of this constant is known when the code runs)
   print(age);
 
   // immutable values
-  const isOpen = true; // compile-time constant
+  const isOpen =
+      true; // compile-time constant (the value of this constant is known when the code is compiled)
   print(isOpen);
 
   print(age + 10);

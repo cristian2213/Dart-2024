@@ -24,4 +24,8 @@ void main() {
     print('second running');
     isRunning = false;
   } while (isRunning);
+
+  final numbers = [5, 6];
+  final forInList = [1, 2, for (final num in numbers) num];
+  print(forInList);
 }

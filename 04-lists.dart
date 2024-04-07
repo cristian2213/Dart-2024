@@ -17,4 +17,10 @@ void main() {
 
   print(scores.length);
   print(scores);
+
+  final conditionalList = [1, 2, if (true == false) 3 else 4];
+  print(conditionalList);
+
+  final ternaryList = [1, 2, true == false ? 3 : 4];
+  print(ternaryList);
 }
